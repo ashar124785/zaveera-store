@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zaveera Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes slideUp {
+      from {
+        transform: translateY(50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    .animate-slideUp {
+      animation: slideUp 1s ease-out forwards;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <nav class="flex items-center justify-between p-6 bg-white shadow-md sticky top-0 z-50">
+    <h1 class="text-2xl font-bold text-indigo-600">Zaveera store</h1>
+    <ul class="flex gap-6 text-gray-700 font-medium">
+      <li><a href="home.html" class="hover:text-indigo-600 transition">Home</a></li>
+      <li><a href="shop.html" class="hover:text-indigo-600 transition">Shop</a></li>
+      <li><a href="about.html" class="hover:text-indigo-600 transition">About</a></li>
+      <li><a href="contact.html" class="hover:text-indigo-600 transition">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 px-6 md:px-20 bg-gradient-to-br from-indigo-100 to-purple-200">
+    <h2 class="text-4xl md:text-5xl font-bold mb-6 animate-slideUp">Welcome To Zaveera Store</h2>
+    <p class="text-lg md:text-xl mb-8 text-gray-700 animate-slideUp" style="animation-delay: .2s;">Shop premium fashion, electronics, and more with Zaveera</p>
+    <a href="#shop" class="bg-indigo-600 text-white px-6 py-3 rounded-xl text-lg hover:bg-indigo-700 transition-all animate-slideUp" style="animation-delay: .4s;">Start Shopping</a>
+  </section>
+
+  <!-- Featured Products -->
+  <section id="shop" class="py-16 px-6 md:px-20 bg-white">
+    <h3 class="text-3xl font-semibold text-center mb-12">Featured Categories</h3>
+    <div class="grid gap-8 md:grid-cols-3 sm:grid-cols-2 animate-slideUp">
+      <div class="bg-indigo-50 p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="c:\Users\ENC\OneDrive\Desktop\toyyy.jpg" alt="Fashion" class="mb-4 rounded-lg" />
+        <h4 class="text-xl font-semibold">Toys </h4>
+        <p class="text-gray-600">Trendy Toys </p>
+      </div>
+      <div class="bg-indigo-50 p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="c:\Users\ENC\OneDrive\Desktop\kitchen.jpg" alt="Electronics" class="mb-4 rounded-lg" />
+        <h4 class="text-xl font-semibold">Kitchen</h4>
+        <p class="text-gray-600">Latest Kitchen assentials and products</p>
+      </div>
+      <div class="bg-indigo-50 p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="c:\Users\ENC\OneDrive\Desktop\homee.jpg" alt="Home" class="mb-4 rounded-lg" />
+        <h4 class="text-xl font-semibold">Home Essentials</h4>
+        <p class="text-gray-600">Everything for your comfort</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-10 text-center mt-10">
+    <p class="mb-2">© 2025 Zaveera Store</p>
+    <p class="text-sm text-gray-400">Made with 💙 in UAE>
+  </footer>
+
+</body>
+</html>
+
+

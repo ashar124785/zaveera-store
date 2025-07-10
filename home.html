@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Zaveera Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .fade-in-up {
+      animation: fadeInUp 1s ease-out forwards;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <nav class="flex items-center justify-between p-6 bg-white shadow-md sticky top-0 z-50">
+    <h1 class="text-2xl font-bold text-indigo-600">Zaveera Store</h1>
+    <ul class="flex gap-6 text-gray-700 font-medium">
+      <li><a href="p.html" class="hover:text-indigo-600 transition">Home</a></li>
+      <li><a href="#categories" class="hover:text-indigo-600 transition">Categories</a></li>
+      <li><a href="#benefits" class="hover:text-indigo-600 transition">Why Us</a></li>
+      <li><a href="#contact" class="hover:text-indigo-600 transition">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Banner -->
+  <section class="bg-gradient-to-r from-indigo-200 to-purple-300 py-20 text-center px-6">
+    <h2 class="text-5xl font-bold mb-4 fade-in-up">Your Amazon Gateway in Dubai</h2>
+    <p class="text-xl mb-6 text-gray-700 fade-in-up" style="animation-delay: .2s;">Trusted seller of premium products across UAE</p>
+    <a href="#categories" class="bg-indigo-600 text-white px-6 py-3 rounded-xl text-lg hover:bg-indigo-700 transition-all fade-in-up" style="animation-delay: .4s;">Explore Products</a>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section id="benefits" class="py-16 px-6 md:px-20 bg-white">
+    <h3 class="text-3xl font-semibold text-center mb-12 fade-in-up">Why Shop with Zaveera?</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="text-center fade-in-up">
+        <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" alt="Fast Delivery" class="w-20 h-20 mx-auto mb-4" />
+        <h4 class="text-xl font-semibold mb-2">Fast Delivery</h4>
+        <p class="text-gray-600">Get your orders across Dubai in 1–2 days.</p>
+      </div>
+      <div class="text-center fade-in-up" style="animation-delay: .2s;">
+        <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="Genuine Products" class="w-20 h-20 mx-auto mb-4" />
+        <h4 class="text-xl font-semibold mb-2">100% Authentic</h4>
+        <p class="text-gray-600">We only deal in original, high-quality Amazon products.</p>
+      </div>
+      <div class="text-center fade-in-up" style="animation-delay: .4s;">
+        <img src="https://cdn-icons-png.flaticon.com/512/929/929591.png" alt="Support" class="w-20 h-20 mx-auto mb-4" />
+        <h4 class="text-xl font-semibold mb-2">Customer Support</h4>
+        <p class="text-gray-600">24/7 WhatsApp support for order tracking and queries.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section id="categories" class="py-16 px-6 md:px-20 bg-gray-100">
+    <h3 class="text-3xl font-semibold text-center mb-12">Top Categories</h3>
+    <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-6 fade-in-up">
+      <div class="bg-white rounded-xl shadow p-4 text-center hover:shadow-xl transition">
+        <img src="c:\Users\ENC\OneDrive\Desktop\watch.jpg" class="rounded mb-3 mx-auto" />
+        <h4 class="font-bold text-lg">Smart Watches</h4>
+        <p class="text-sm text-gray-600">Imported & latest models</p>
+      </div>
+      <div class="bg-white rounded-xl shadow p-4 text-center hover:shadow-xl transition">
+        <img src="c:\Users\ENC\OneDrive\Desktop\beauty.jpg" class="rounded mb-3 mx-auto" />
+        <h4 class="font-bold text-lg">Beauty Tools</h4>
+        <p class="text-sm text-gray-600">Best for skin & hair care</p>
+      </div>
+      <div class="bg-white rounded-xl shadow p-4 text-center hover:shadow-xl transition">
+        <img src="c:\Users\ENC\OneDrive\Desktop\kitchen.jpg" class="rounded mb-3 mx-auto" />
+        <h4 class="font-bold text-lg">Kitchen Gadgets</h4>
+        <p class="text-sm text-gray-600">Top-selling in UAE homes</p>
+      </div>
+      <div class="bg-white rounded-xl shadow p-4 text-center hover:shadow-xl transition">
+        <img src="c:\Users\ENC\OneDrive\Desktop\fitt.jpg" class="rounded mb-3 mx-auto" />
+        <h4 class="font-bold text-lg">Fitness Gear</h4>
+        <p class="text-sm text-gray-600">Home workout essentials</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-6 md:px-20 bg-indigo-100 text-center">
+    <h3 class="text-3xl font-semibold mb-6">Get in Touch</h3>
+    <p class="text-gray-700 mb-6">Have questions? We're just a message away!</p>
+    <a href="https://wa.me/971XXXXXXXXX" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-xl inline-block text-lg transition">Chat on WhatsApp</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8 text-center mt-10">
+    <p>© 2025 Zaveera | Dubai Based</p>
+    <p class="text-sm text-gray-400">Selling smart, original products — powered by Amazon</p>
+  </footer>
+
+</body>
+</html>
